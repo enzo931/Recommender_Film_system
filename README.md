@@ -48,29 +48,33 @@ recommender-system/
 #  🚀 Como Executar o Projeto Localmente
 
 ## 1. Clonar o Repositório
-
+```
 git clone [https://github.com/seu-usuario/recommender-system.git](https://github.com/seu-usuario/recommender-system.git)
 cd recommender-system
-
+```
 ## 2. Criar e Ativar o Ambiente Virtual
-
+```
 python -m venv venv
-
+```
 ## Windows (PowerShell):
+```
 .\venv\Scripts\activate
+```
 ## Linux / macOS:
+```
 source venv/bin/activate
-
+```
 ## 3. Instalar as Dependências
-
+```
 pip install -r requirements.txt
-
+```
 ## 4. Executar via Terminal (CLI)
 Para testar a pipeline de Machine Learning diretamente no terminal:
-
+```
 python main.py
-
+```
 ## 5. Executar a Interface Web (Streamlit)
 Para abrir a aplicação interativa no seu navegador:
-
+```
 streamlit run app.py
+```
